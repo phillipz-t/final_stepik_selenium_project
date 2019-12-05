@@ -6,3 +6,9 @@ class MainPageLocators():
 class LoginPageLocators():
 	LOGIN_FORM = (By.CSS_SELECTOR, 'form[id="login_form"]')
 	REGISTER_FORM = (By.CSS_SELECTOR, 'form[id="register_form"]')
+
+class BasketLocators():
+	ADD_BUTTON = (By.CSS_SELECTOR, '.btn.btn-lg.btn-primary.btn-add-to-basket')
+	ADD_MESSAGE = (By.CSS_SELECTOR, 'div[class="alertinner "] > strong')
+	PRICE_MESSAGE = (By.CSS_SELECTOR, '.alertinner p strong')
+
